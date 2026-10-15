@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aditya Sah</title>
+  <meta name="description" content="Independent AI engineer — portfolio of Aditya Sah.">
+  <link rel="icon" type="image/gif" href="assets/favicon.gif">
+
+  <!-- Typography & Fonts -->
+  <link rel="stylesheet" href="assets/fonts.css">
+
+  <!-- Preload dancing anime girl GIF for instant View Transition -->
+  <link rel="preload" as="image" href="assets/shigure-ui-smol.gif">
+
+  <!-- Authentic Stylesheet from aditya.zer01.studio -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- ni5arga.com Dancing Anime Girl Theme Transition -->
+  <link rel="stylesheet" href="css/anime-transition.css">
+
+  <!-- Immediate Theme Initializer to prevent flash -->
+  <script>
+    (function() {
+      var saved = localStorage.getItem('aditya-theme');
+      var theme = saved || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
+</head>
+<body class="space_grotesk_8b3e2e34-module___bBEYW__variable bodoni_moda_3218ecba-module__4jKjfG__variable orbitron_44618f4f-module__xsbSWq__variable fraunces_ea82caad-module__wT17xq__variable ibm_plex_mono_2c7a76e2-module__5eazYW__variable syne_4747fbf8-module__4EkM4q__variable instrument_serif_9aefc755-module__xE9eMW__variable">
+  <main class="portfolio-page">
+    <!-- Real-time Fullscreen Animated ASCII Canvas for #blog -->
+    <div class="blog-ascii-fullscreen" aria-hidden="true">
+      <canvas class="blog-ascii-canvas" aria-hidden="true"></canvas>
+    </div>
+    <h2 id="blog-heading" class="sr-only">Coming soon</h2>
+
+    <!-- Theme Toggle Dot Button -->
+    <button type="button" class="theme-dot" aria-label="Switch to light mode (shortcut t)" aria-pressed="false" title="Switch to light mode (t)">
+      <span class="theme-dot-shortcut" aria-hidden="true">(t)</span>
+      <span class="theme-dot-core"></span>
+    </button>
+
+    <!-- Main Viewport Layout -->
+    <div class="portfolio-layout">
+      <!-- Fixed Sidebar Navigation -->
+      <aside class="sidebar" aria-label="Primary navigation">
+        <div class="identity-panel" aria-label="Identity">
+          <p class="identity-name" aria-live="polite">
+            <span class="identity-name-text">Aditya Sah</span>
+            <span class="identity-cursor" aria-hidden="true"></span>
+          </p>
+        </div>
+
+        <nav class="section-nav" aria-label="Section navigation">
+          <a href="#about" class="section-nav-link is-active" aria-current="page">
+            <span class="section-nav-index">01 (h)</span>
+            <span>about</span>
+          </a>
+          <a href="#projects" class="section-nav-link">
+            <span class="section-nav-index">02 (j)</span>
+            <span>projects</span>
+          </a>
+          <a href="#blog" class="section-nav-link">
+            <span class="section-nav-index">03 (k)</span>
+            <span>blog</span>
+          </a>
+          <a href="#contact" class="section-nav-link">
+            <span class="section-nav-index">04 (l)</span>
+            <span>contact</span>
+          </a>
+        </nav>
+      </aside>
+
+      <!-- Scrollable Stage & Sections -->
+      <div class="page-stage">
+        <!-- Section 1: About / Intro -->
+        <section id="about" data-page-section class="page-screen is-active">
+          <section class="section section-intro" aria-labelledby="intro-heading">
+            <h1 id="intro-heading" class="hero-title">
+              <span class="hero-title-line hero-title-prefix">Independent</span>
+              <span class="hero-title-line hero-title-accent-line" aria-live="polite">
+                <em class="hero-accent accent-font-creative">
+                  <span class="hero-accent-text">creative</span>
+                  <span class="hero-accent-cursor" aria-hidden="true"></span>
+                </em>
+              </span>
+              <span class="hero-title-line hero-title-suffix">engineer</span>
+            </h1>
+
+            <div class="intro-bio-shell">
+              <p class="intro-bio">
+                I'm a software engineer based in India, building AI-powered and RAG applications, modern web experiences, and automation tools. I enjoy turning <span class="bio-kw bio-kw--complex" data-tone="complex" tabindex="0">complex</span> ideas into products that are <span class="bio-kw bio-kw--fast" data-tone="fast" tabindex="0">fast</span>, <span class="bio-kw bio-kw--intuitive" data-tone="intuitive" tabindex="0">intuitive</span>, and built to last.
+              </p>
+              <div class="bio-float-layer" aria-hidden="true"></div>
+            </div>
+
+            <div class="intro-currently" aria-label="Current focus">
+              <span class="intro-currently-label">currently:</span>
+              <ul class="intro-currently-list">
+                <!-- Dynamically populated from config.js -->
+              </ul>
+            </div>
+          </section>
+        </section>
+
+        <!-- Section 2: Projects -->
+        <section id="projects" data-page-section class="page-screen is-inactive">
+          <section class="section section-projects" aria-label="Projects">
+            <!-- Dynamically populated from config.js -->
+          </section>
+        </section>
+
+        <!-- Section 3: Blog -->
+        <section id="blog" data-page-section class="page-screen page-screen--blog is-inactive" aria-label="Blog">
+          <span class="sr-only">Coming soon</span>
+        </section>
+
+        <!-- Section 4: Contact -->
+        <section id="contact" data-page-section class="page-screen is-inactive">
+          <section class="section" aria-label="Contact">
+            <!-- Dynamically populated from config.js -->
+          </section>
+        </section>
+      </div>
+    </div>
+
+    <!-- Site Footer -->
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <div class="site-footer-brand">
+          <span class="site-footer-mark">Aditya Sah</span>
+          <span class="site-footer-made">
+            made with <span class="heart-blob" aria-label="love" role="img"><span class="heart-blob-core" aria-hidden="true"></span></span> at zer01 studio
+          </span>
+        </div>
+        <div class="site-footer-meta">
+          <time class="site-footer-time" title="Local time" aria-label="Current time">--:--:-- --</time>
+          <span class="site-footer-dot" aria-hidden="true"></span>
+          <span class="site-footer-year">© 2026</span>
+          <span class="site-footer-dot" aria-hidden="true"></span>
+          <span>Available for select work</span>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Central Configuration File (Edit this to customize anything!) -->
+  <script src="config.js"></script>
+
+  <!-- Application Bootstrap Modules -->
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
